@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    background-color:rgb(219, 221, 222);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1000;
+}
+.section__left{
+    background-color:rgb(219, 221, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+.bx-menu{
+    font-size: 2rem;
+    padding: 8px;
+    margin: 0 0 0 10px;
+}
+.bx-menu:hover{
+    opacity: 0.8;
+    background-color: rgb(170, 168, 168);
+    border-radius: 25px;
+}
+.section__middle{
+    background-color: rgb(219, 221, 222);
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    flex:1;
+}
+
+.search__bar{
+    flex:1;
+    height: 2.2rem;
+    font-size: 16px;
+    border: 1px solid rgb(191, 189, 189);
+    box-shadow: inset 0 0 5px rgba(0,0,0, 0.15);
+    width: 0;
+    border-radius: 30px 0 0 30px;
+}
+.search__bar::placeholder{
+    padding-left: 20px;
+}
+.search__icon{
+    border: 1px solid rgb(191, 189, 189);
+    padding: 3.5px 5px 3.5px 5px;
+    border-radius: 0 30px 30px 0;
+    background-color: white;
+    margin:0 15px 0 -1px;
+    cursor: pointer;
+}
+.bx-search, .bx-microphone{
+    font-size: 1.5rem;
+}
+.bx-microphone{
+    padding: 6px;
+}
+.microphone{
+    font-size: 0.65rem;
+    border: 1px solid rgb(191, 189, 189);
+    border-radius: 50px;
+}
+
+
+
+.section__right{
+    background-color:rgb(219, 221, 222);
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section__right img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+.section__left img{
+    width: 100%;
+    height: 20px;
+    padding: 18px 14px 18px 16px;
+}
+.bx-video-plus, .bx-bell{
+    font-size: 2rem;
+}
+.bell__notification{
+    position: relative;
+}
+.notification__count{
+    position: absolute;
+    top: 2px;
+    right: -5px;
+    background-color: rgb(229, 33, 33);
+    padding: 3px 6px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 10px;
+}

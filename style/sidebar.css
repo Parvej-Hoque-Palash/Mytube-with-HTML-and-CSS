@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    margin-top:56px;
+    width: 66px;
+    background-color:rgb(219, 221, 222);
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    z-index: 999;
+    color:black;
+    align-items: center;
+    
+}
+.bxs-home, .bxs-film, .bx-movie-play, .bxs-videos{
+    font-size: 2rem;
+}
+.home__btn, .shorts__btn, .subscriptions__btn, .library__btn{
+    font-size: 0.7rem;
+    
+}
+.bar__section1,.bar__section2,.bar__section3,.bar__section4{
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+    text-align-last: center;
+    padding: 16px 0 14px 0;
+}
+.bar__section1:hover,.bar__section2:hover,.bar__section3:hover,.bar__section4:hover{
+    opacity: 0.8;
+    background-color: rgb(177, 178, 179);;
+}

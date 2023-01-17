@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    padding-top:112px;
+    padding-left:66px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.base__div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(0, 0, 0);
+    row-gap: 40px;
+}
+@media (max-width: 800px){
+    .base__div{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 600px){
+    .base__div{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 454px){
+    .base__div{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 1000px){
+    .base__div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.channel__thumb{
+    position: relative;
+    padding: 0 20px 0 0px;
+}
+.channel__thumb img{
+    width: 100%;
+    height: 152px;
+    border-radius: 15px;
+}
+.duration{
+    background-color: rgb(32, 32, 32);
+    color:white;
+    position: absolute;
+    bottom:15px;
+    right: 25px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0 6px;
+    border-radius: 5px;
+}
+.channel__info{
+    display: flex;
+    justify-content: right;
+    padding: 10px 10px 0 0;
+    color: #F1F1F1;
+}
+.channel__detail{
+    padding: 0 0 0 10px;
+}
+.content__title{
+    padding: 0 0 10px 0;
+    font-size: 14px;
+}
+.channel__logo img{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+.channel__name, .views__time{
+    color: #AAAAAA;
+    font-size: 12px;
+}
+.channel__name:hover{
+    color:#F1F1F1;
+}
